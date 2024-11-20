@@ -43,7 +43,9 @@ The project annotated dataset provided here:
 
 https://universe.roboflow.com/landmark-object-detection/detection-jsxva 
 
+
 ![dataset](images/dataset%20on%20roboflow.png)
+
 
 You can access the project from the drive link : "will be provided soon"
 > ⚠ Caution: Please note that the project file size is large and may take some time to download or upload, depending on your internet connection. Ensure sufficient storage space before downloading.  
@@ -89,6 +91,7 @@ You can access the project from the drive link : "will be provided soon"
 ## Overview:
 ### Problem Statement:
 Egypt's civilization’s wealth is reflected in its historical landmarks and astonishing destinations. Exploring Egypt’s diverse cultural heritage can be a complex experience for international tourists. Typical guidebooks and online resources often fail to provide the real-time assistance and tailored insights needed to truly appreciate the wonders of Egypt. As a result, significant issues arise: tourists become uncertain about the historical value or significance of landmarks due to the sheer magnitude of options available and frustrated by the lack of seamless accommodation booking options. Additionally, the missed opportunities to experience unique journeys in Egypt are another considerable issue.
+
 
 ![tourism](Images/tourism.png)
 
@@ -154,12 +157,16 @@ Our dataset posed several significant challenges that complicated its use for ob
 Addressing these challenges was critical for developing a robust and accurate object detection system.
 
 - image data before preprocessing
+
  
 ![annoation challenges](images/data%20before%20preprocessing.jpg)
 
+
 - image data have inconsistent dimensions  
+
  
 ![annotation challenges](Images/images%20have%20inconsistent%20dimensions.jpg)
+
 
 ### Choosing Best Model
 
@@ -199,13 +206,17 @@ Selecting the right model for object detection involves balancing multiple facto
 **`Selecting an Annotating Tool`**:  
 After extensive research, we chose **`Roboflow`** for its user-friendly interface, YOLOv7 PyTorch compatibility, and free plan with multiple export formats.
 
+
 <div align="center" ><img src="images/roboflow-inc-logo.png" width="300px" height="200px"/></div>
+
 
 **`Data Preprocessing with Roboflow`**:  
 - **Resized** images to 640x640.  
 - **Greyscaled** images to reduce complexity, as color is not crucial for object detection, improving model performance.
+
   
   ![data after preprocessing](Images/data%20after%20preprocessing.jpg)
+
 
 **`Addressing Class Imbalance`**:  
 Used **data augmentation** to balance the dataset and enhance model robustness.
