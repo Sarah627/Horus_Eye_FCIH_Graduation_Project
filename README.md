@@ -163,7 +163,7 @@ Addressing these challenges was critical for developing a robust and accurate ob
 - image data before preprocessing
 
  
-< img src="Images/data before preprocessing.jpg" />
+<img src="Images/data before preprocessing.jpg" />
 
 
 - image data have inconsistent dimensions  
