@@ -166,4 +166,89 @@ Used **data augmentation** to balance the dataset and enhance model robustness.
 
 --- 
 
+## Results
+
+### Results from YOLOv7
+
+![result](Images/result1.png/)
+![result](Images/result2.png/)
+![result](Images/result3.png/)
+![result](Images/result4.png/)
+![result](Images/result5.png/)
+![graphs](Images/confusion_matrix%20(1).png)
+![graphs](Images/Recall%20and%20mAP.png)
+![graphs](Images/validation%20loss%20and%20Training%20Loss.png)
+
+### How The Model Was Deployed
+
+**Deployment Process**  
+1. **`Environment Setup`**:  
+   - Created a virtual environment to avoid dependencies conflict with previous versions and installed required dependencies (Flask, PyTorch, OpenCV) .
+2. **`Flask Application`**:  
+   - Developed a Flask app to handle HTTP requests and perform inference using YOLOv7.  
+   - Core functionality is in `app.py`, which loads the model and processes requests.
+
+**Key Components**  
+- **`Model Loading`**:  
+  - Loaded YOLOv7 model using `attempt_load` function.  
+  - Model weights loaded onto the CPU.
+- **`Handling Requests`**:  
+  - `/predict` endpoint accepts POST requests with images.  
+  - Image resized to 640x640 and converted to a PyTorch tensor for inference.  
+  - Model processes the image and returns the result.
+
+**Testing the Deployment**  
+1. **`Test Setup`**:  
+   - Used `requests` for sending HTTP requests and OpenCV to read and preprocess test images.
+2. **`Test Image Preparation`**:  
+   - Selected and resized the image to 640x640 pixels, converted to RGB, and encoded to JPEG for transmission.
+3. **`Sending Image`**:  
+   - Image sent via POST to the `/predict` endpoint with error handling in place.
+4. **`Handling Response`**:  
+   - If successful, the result was parsed from JSON and displayed.  
+   - If an error occurred, the status code and error message were shown.
+
+By following these steps, we successfully tested and validated the deployment of the YOLOv7 model, ensuring it was integrated with the Flask application and performed inference as expected.
+
+---
+
+## Future Work
+
+Our focus is on improving website performance and adding features for a richer, more personalized user experience:
+
+1. **Website Performance**:  
+   - **`Optimization`**: Enhance load times and responsiveness by optimizing backend and frontend.  
+   - **`Scalability`**: Implement infrastructure to handle increased traffic.
+
+2. **Personalized Travel Recommendations**:  
+   - **`User Preferences`**: Use machine learning to provide tailored suggestions based on interests like history, culture, and adventure.  
+   - **`Adaptive Learning`**: Refine recommendations based on user feedback.
+
+3. **AI-Generated Travel Content**:  
+   - **`Automated Content Creation`**: Use AI to generate up-to-date travel guides, tips, and destination content.
+
+4. **Multilingual Support**:  
+   - **`Global Accessibility`**: Expand language offerings for a wider global audience.
+
+5. **Real-time Updates**:  
+   - **`Weather & Transportation`**: Provide real-time weather, flight, train, and bus updates.  
+   - **`Local Events`**: Share information on local events and festivals.
+
+6. **Food Recommendations**:  
+   - **`Personalized Dining`**: Offer restaurant suggestions based on preferences and dietary restrictions.
+
+7. **Emotion Recognition for Travel Content**:  
+   - **`AI-Based Emotion Analysis`**: Use emotion recognition to personalize recommendations and create more engaging content.
+
+These enhancements will help build a comprehensive, intuitive platform that exceeds user expectations by providing personalized, real-time information for a better travel experience.
+
+--- 
+
+## Acknowledgements 
+
+
+---
+
+## References
+
 
