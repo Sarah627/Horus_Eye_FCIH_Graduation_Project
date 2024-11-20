@@ -37,6 +37,37 @@
 </div>
 
 
+--- 
+
+The project annotated dataset provided here: 
+
+https://universe.roboflow.com/landmark-object-detection/detection-jsxva 
+
+![dataset](images/dataset%20on%20roboflow.png)
+
+You can access the project from the drive link : "will be provided soon"
+> ⚠ Caution: Please note that the project file size is large and may take some time to download or upload, depending on your internet connection. Ensure sufficient storage space before downloading.  
+---
+## Team's Contacts:
+
+- Sarah Sameh AboBakkr (me) 
+- Rawan Soudi Salah 
+
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="100px" height="30px"/>
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="100px" height="30px"/>
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="100px" height="30px"/>
+
+
+| **Platform**  | **Link**                                                             | **Member Name**         | **Role/Description** |
+|---------------|---------------------------------------------------------------------|-------------------------|----------------------|
+| **Gmail**     | [sarahsameh627@gmail.com](mailto:sarahsameh627@gmail.com)           | **Sarah Sameh AboBakkr** | Main contact         |
+| **LinkedIn**  | [LinkedIn Profile](https://www.linkedin.com/in/sarah-sameh-a5aba11b3/) |                         | Professional profile |
+| **GitHub**    | [GitHub Profile](https://github.com/Sarah627)                       |                         | Developer            |
+
+                      
+
+---
+
 ## Table of Contents:
 1. Overview
    1. Problem Statement.
@@ -92,6 +123,7 @@ In line with our goal to enhance the travel experience for non-Egyptian tourists
 
 ### Data
 Our dataset posed several significant challenges that complicated its use for object detection model training:
+
 1. **`Lack of Annotations`**
    <details>
 
@@ -99,6 +131,7 @@ Our dataset posed several significant challenges that complicated its use for ob
    2. This absence necessitated the manual creation of ground truth data, a process that is both time-consuming and labor-intensive.
     
    </detials>
+
 
 2. **`Class Imbalance`**:
    <details>
@@ -119,6 +152,14 @@ Our dataset posed several significant challenges that complicated its use for ob
    2. Essential preprocessing tasks included resizing, normalization, and augmentation to improve the model's ability to generalize across varied input data.
    </details> 
 Addressing these challenges was critical for developing a robust and accurate object detection system.
+
+- image data before preprocessing
+ 
+![annoation challenges](images/data%20before%20preprocessing.jpg)
+
+- image data have inconsistent dimensions  
+ 
+![annotation challenges](Images/images%20have%20inconsistent%20dimensions.jpg)
 
 ### Choosing Best Model
 
@@ -146,6 +187,7 @@ Selecting the right model for object detection involves balancing multiple facto
    - Complex architecture and long training times.
    - Issues with adapting to custom datasets, requiring significant adjustments to scripts.
 
+
 3. **YOLOv7**:
    - Balances speed and accuracy, with an AP of 51.4% on our dataset.
    - Requires high hardware resources but performs well for real-time detection.
@@ -155,11 +197,15 @@ Selecting the right model for object detection involves balancing multiple facto
 ## How Did We Overcomed The Challenges Of The Dataset 
 
 **`Selecting an Annotating Tool`**:  
-After extensive research, we chose **Roboflow** for its user-friendly interface, YOLOv7 PyTorch compatibility, and free plan with multiple export formats.
+After extensive research, we chose **`Roboflow`** for its user-friendly interface, YOLOv7 PyTorch compatibility, and free plan with multiple export formats.
+
+<div align="center" ><img src="images/roboflow-inc-logo.png" width="300px" height="200px"/></div>
 
 **`Data Preprocessing with Roboflow`**:  
 - **Resized** images to 640x640.  
 - **Greyscaled** images to reduce complexity, as color is not crucial for object detection, improving model performance.
+  
+  ![data after preprocessing](Images/data%20after%20preprocessing.jpg)
 
 **`Addressing Class Imbalance`**:  
 Used **data augmentation** to balance the dataset and enhance model robustness.
@@ -245,6 +291,10 @@ These enhancements will help build a comprehensive, intuitive platform that exce
 --- 
 
 ## Acknowledgements 
+
+To commence, we express our deepest gratitude to Dr. Ahmed Hesham for his invaluable supervision and guidance throughout the duration of our graduation project. Prof. Ahmed Hesham's unwavering support, expertise, and dedication played a pivotal role in shaping the success of our endeavor. His insightful feedback, constructive criticism, and encouragement propelled us to strive for excellence and overcome challenges with resilience.
+
+Additionally, we extend our heartfelt thanks to our families for their unwavering support, understanding, and encouragement throughout this journey. Their boundless love, encouragement, and sacrifices provided us with the strength and motivation to pursue our academic goals relentlessly.
 
 
 ---
