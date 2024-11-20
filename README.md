@@ -40,17 +40,19 @@
 ## Table of Contents:
 1. Overview
    1. Problem Statement.
-   2. Proposed Solution
+   2. Proposed Solution.
 2. Challenges
-   1. Data
-   2. Choosing Best Model
-3. Results
+   1. General constraints.
+   2. Data.
+   3. Choosing Best Model.
+3. How Did We Overcomed The Challenges Of The Dataset 
+4. Results
    1. Results from YOLOv7
    2. How the project was deployed
-4. Future Work
+5. Future Work
    1. Advanced Models
-5. Acknowledgements 
-6. References
+6. Acknowledgements 
+7. References
 
 --- 
 ## Overview:
@@ -74,12 +76,79 @@ Here’s a shortened version of the objectives:
 #### Objectives
 In line with our goal to enhance the travel experience for non-Egyptian tourists and improve their exploration of Egypt's landmarks, our project aims to:
 
-1. **Develop an AI Image Recognition System**: Create an AI-powered system to identify landmarks in Egypt from user-uploaded photos, offering real-time insights.
-2. **Ensure Seamless User Experience**: Design an intuitive website for easy photo uploads, landmark information navigation, and accommodation booking.
-3. **Provide Landmark Information**: Curate a comprehensive database of Egypt’s landmarks, offering historical, cultural, and geographical insights to deepen users’ appreciation of Egypt’s heritage.
+1. **`Develop an AI Image Recognition System`**: Create an AI-powered system to identify landmarks in Egypt from user-uploaded photos, offering real-time insights.
+2. **`Ensure Seamless User Experience`**: Design an intuitive website for easy photo uploads, landmark information navigation, and accommodation booking.
+3. **`Provide Landmark Information`**: Curate a comprehensive database of Egypt’s landmarks, offering historical, cultural, and geographical insights to deepen users’ appreciation of Egypt’s heritage.
 
 --- 
 
+## Challenges:
+### General Constraints
+1. **Limited** access to high-quality datasets for training machine learning algorithms.
+2. **Complexity** of integrating with external APIs such as booking.com or Trivago for accommodation bookings.
+3. Challenges in developing accurate and reliable AI-enhanced image recognition models for identifying landmarks.
+4. **Time constraints** due to academic deadlines for project completion.
+5. Resource constraints such as **limited access to computational resources** or cloud services for model training and deployment.
 
+### Data
+Our dataset posed several significant challenges that complicated its use for object detection model training:
+1. **`Lack of Annotations`**
+   <details>
 
+   1. The dataset consisted solely of raw images without any accompanying annotation files, CSV files, or metadata.
+   2. This absence necessitated the manual creation of ground truth data, a process that is both time-consuming and labor-intensive.
+    
+   </detials>
 
+2. **`Class Imbalance`**:
+   <details>
+
+   1. There was a notable imbalance in object classes, with some classes being significantly underrepresented.
+   2. This imbalance risks producing a biased model that performs well on frequent classes but poorly on less frequent ones, affecting overall accuracy and reliability.
+   </details> 
+3. **`Presence of Outliers`**:
+   <details>
+
+   1. The dataset contained numerous outliers, such as low-quality images, irrelevant objects, and unusual object orientations.
+   2. These outliers could introduce noise into the training process, potentially confusing the model and degrading its performance if not properly managed during preprocessing.
+   </details> 
+4. **`Lack of Preprocessing`**:
+   <details>
+
+   1. The dataset had not undergone any preprocessing, requiring extensive steps to ensure suitability for model training.
+   2. Essential preprocessing tasks included resizing, normalization, and augmentation to improve the model's ability to generalize across varied input data.
+   </details> 
+Addressing these challenges was critical for developing a robust and accurate object detection system.
+
+### Choosing Best Model
+
+#### Model Selection Criteria for Object Detection
+
+Selecting the right model for object detection involves balancing multiple factors:
+
+- **`Accuracy`**: Measured using metrics like mAP and IoU, ensuring the model can reliably identify and localize objects.
+- **`Speed`**: Important for real-time tasks, evaluated by inference time and throughput.
+- **`Computational Requirements`**: Considerations include hardware needs, memory footprint, and energy efficiency.
+- **`Model Complexity`**: Affects deployment and maintenance; simpler models are easier to deploy but might sacrifice performance.
+- **`Adaptability`**: Ability to generalize to new tasks and data, using transfer learning and data augmentation.
+- **`Support`**: Community resources, documentation, and ecosystem tools can streamline development.
+- **Cost and Licensing**: Financial and legal aspects, particularly for commercial use.
+
+---
+
+#### Challenges and Limitations of Tested Models
+
+1. **SSD**:
+   - Struggles with small object detection and complex backgrounds.
+   - Speed comes at the cost of accuracy.
+   - Customization is labor-intensive.
+
+2. **Faster R-CNN & Mask R-CNN**:
+   - Complex architecture and long training times.
+   - Issues with adapting to custom datasets, requiring significant adjustments to scripts.
+
+3. **YOLOv7**:
+   - Balances speed and accuracy, with an AP of 51.4% on our dataset.
+   - Requires high hardware resources but performs well for real-time detection.
+
+## How Did We Overcomed The Challenges Of The Dataset 
