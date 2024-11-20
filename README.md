@@ -41,7 +41,7 @@
 
 The project annotated dataset provided here: 
 
-[roboflow](https://universe.roboflow.com/landmark-object-detection/detection-jsxva)
+[roboflow dataset link](https://universe.roboflow.com/landmark-object-detection/detection-jsxva)
 
 
 <div align="center">
@@ -163,7 +163,7 @@ Addressing these challenges was critical for developing a robust and accurate ob
 - image data before preprocessing
 
  
-![annoation challenges](images/data%20before%20preprocessing.jpg)
+![annoation challenges](Images/data after preprocessing.jpg)
 
 
 - image data have inconsistent dimensions  
