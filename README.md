@@ -41,12 +41,14 @@
 
 The project annotated dataset provided here: 
 
-https://universe.roboflow.com/landmark-object-detection/detection-jsxva 
+[roboflow](https://universe.roboflow.com/landmark-object-detection/detection-jsxva)
 
 
 <div align="center">
-  <img src="images/dataset%20on%20roboflow.png">
+  <img src="Images/dataset on roboflow.png">
 </div>
+
+
 
 
 You can access the project from the drive link : "will be provided soon"
