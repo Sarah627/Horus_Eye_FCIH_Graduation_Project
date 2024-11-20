@@ -1,9 +1,9 @@
 # AI-Powered Tourism Website (Horus Eye)
-## Graduation Project Faculty Of Computers and Atrificial Intelligence Helwan University
+## Graduation Project Faculty Of Computers and Artificial Intelligence Helwan University
 
 
 
-<img src= "https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white">
+<img src= "https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white" alt="weights & biases logo">
 
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
@@ -33,7 +33,7 @@
 <br>
 
 <div align="center">
-  <img src="Images/Horus%20Eye.jpg">
+  <img src="Images/Horus%20Eye.jpg" alt="horus eye">
 </div>
 
 
@@ -45,7 +45,7 @@ The project annotated dataset provided here:
 
 
 <div align="center">
-  <img src="Images/dataset on roboflow.png">
+  <img src="Images/dataset on roboflow.png" alt="Roboflow">
 </div>
 
 
@@ -79,7 +79,7 @@ You can access the project from the drive link : "will be provided soon"
    1. General constraints.
    2. Data.
    3. Choosing Best Model.
-3. How Did We Overcomed The Challenges Of The Dataset 
+3. How Did We Overcome The Challenges Of The Dataset 
 4. Results
    1. Results from YOLOv7
    2. How the project was deployed
@@ -134,7 +134,7 @@ Our dataset posed several significant challenges that complicated its use for ob
    1. The dataset consisted solely of raw images without any accompanying annotation files, CSV files, or metadata.
    2. This absence necessitated the manual creation of ground truth data, a process that is both time-consuming and labor-intensive.
     
-   </detials>
+   </details>
 
 
 2. **`Class Imbalance`**:
@@ -160,7 +160,7 @@ Addressing these challenges was critical for developing a robust and accurate ob
 - image data before preprocessing
 
  
-<img src="Images/data before preprocessing.jpg" />
+<img src="Images/data before preprocessing.jpg" alt="data before preprocessing"/>
 
 
 - image data have inconsistent dimensions  
@@ -202,7 +202,7 @@ Selecting the right model for object detection involves balancing multiple facto
 
 ---
 
-## How Did We Overcomed The Challenges Of The Dataset 
+## How Did We Overcome The Challenges Of The Dataset 
 
 **`Selecting an Annotating Tool`**:  
 After extensive research, we chose **`Roboflow`** for its user-friendly interface, YOLOv7 PyTorch compatibility, and free plan with multiple export formats.
