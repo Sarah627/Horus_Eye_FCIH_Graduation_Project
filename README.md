@@ -44,7 +44,9 @@ The project annotated dataset provided here:
 https://universe.roboflow.com/landmark-object-detection/detection-jsxva 
 
 
-![dataset](images/dataset%20on%20roboflow.png)
+<div align="center">
+  <img src="images/dataset%20on%20roboflow.png">
+</div>
 
 
 You can access the project from the drive link : "will be provided soon"
