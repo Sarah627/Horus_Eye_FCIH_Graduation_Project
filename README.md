@@ -57,7 +57,7 @@
 ### Problem Statement:
 Egypt's civilization’s wealth is reflected in its historical landmarks and astonishing destinations. Exploring Egypt’s diverse cultural heritage can be a complex experience for international tourists. Typical guidebooks and online resources often fail to provide the real-time assistance and tailored insights needed to truly appreciate the wonders of Egypt. As a result, significant issues arise: tourists become uncertain about the historical value or significance of landmarks due to the sheer magnitude of options available and frustrated by the lack of seamless accommodation booking options. Additionally, the missed opportunities to experience unique journeys in Egypt are another considerable issue.
 
-<div align="center"> <img src= "images/tourism.png"> </div>
+![tourism](Images/tourism.png)
 
 
 Our project aims to address key barriers to Egypt's tourism industry:
@@ -65,7 +65,7 @@ Our project aims to address key barriers to Egypt's tourism industry:
 1. **`Limited Landmark Information`**: Tourists often lack up-to-date details on Egypt’s landmarks, making it difficult to appreciate their cultural significance.
 2. **`Inefficient Landmark Identification`**: Without guidance, tourists may struggle to identify and explore Egypt's cultural heritage.
 3. **`Fragmented Booking Process`**: Booking accommodations is often disjointed, leading to confusion and frustration for travelers.
-### 2. Proposed Solution:
+### Proposed Solution:
 
 Our project aimed to convert the tourism experience for non-Egyptians, empowering them to explore Egypt's landmarks with confidence, ease, and greater enthusiasm, through the seamless integration of AI-enhanced image recognition technology and a user-friendly tourism platform.
 
@@ -78,7 +78,7 @@ In line with our goal to enhance the travel experience for non-Egyptian tourists
 2. **Ensure Seamless User Experience**: Design an intuitive website for easy photo uploads, landmark information navigation, and accommodation booking.
 3. **Provide Landmark Information**: Curate a comprehensive database of Egypt’s landmarks, offering historical, cultural, and geographical insights to deepen users’ appreciation of Egypt’s heritage.
 
-
+--- 
 
 
 
