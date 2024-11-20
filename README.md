@@ -134,7 +134,6 @@ Selecting the right model for object detection involves balancing multiple facto
 - **`Support`**: Community resources, documentation, and ecosystem tools can streamline development.
 - **Cost and Licensing**: Financial and legal aspects, particularly for commercial use.
 
----
 
 #### Challenges and Limitations of Tested Models
 
@@ -151,4 +150,20 @@ Selecting the right model for object detection involves balancing multiple facto
    - Balances speed and accuracy, with an AP of 51.4% on our dataset.
    - Requires high hardware resources but performs well for real-time detection.
 
+---
+
 ## How Did We Overcomed The Challenges Of The Dataset 
+
+**`Selecting an Annotating Tool`**:  
+After extensive research, we chose **Roboflow** for its user-friendly interface, YOLOv7 PyTorch compatibility, and free plan with multiple export formats.
+
+**`Data Preprocessing with Roboflow`**:  
+- **Resized** images to 640x640.  
+- **Greyscaled** images to reduce complexity, as color is not crucial for object detection, improving model performance.
+
+**`Addressing Class Imbalance`**:  
+Used **data augmentation** to balance the dataset and enhance model robustness.
+
+--- 
+
+
