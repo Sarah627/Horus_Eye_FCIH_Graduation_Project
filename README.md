@@ -163,7 +163,7 @@ Addressing these challenges was critical for developing a robust and accurate ob
 - image data before preprocessing
 
  
-![annoation challenges](Images/data after preprocessing.jpg)
+![annoation challenges](Images/data%after%preprocessing.jpg)
 
 
 - image data have inconsistent dimensions  
@@ -211,7 +211,9 @@ Selecting the right model for object detection involves balancing multiple facto
 After extensive research, we chose **`Roboflow`** for its user-friendly interface, YOLOv7 PyTorch compatibility, and free plan with multiple export formats.
 
 
-<div align="center" ><img src="images/roboflow-inc-logo.png" width="300px" height="200px"/></div>
+<div align="center" >
+  <img src="Images/roboflow-inc-logo.png" width="300px" height="200px"/>
+</div>
 
 
 **`Data Preprocessing with Roboflow`**:  
