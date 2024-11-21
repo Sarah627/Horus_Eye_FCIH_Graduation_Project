@@ -43,12 +43,12 @@ The project annotated dataset provided here:
 
 [roboflow dataset link](https://universe.roboflow.com/landmark-object-detection/detection-jsxva)
 
+The project presentation is provided here also:
+ [presentation link](https://docs.google.com/presentation/d/1rvinPJAuQ8CUnr-7vivxsQqPMPkO_Sew/edit?usp=sharing&ouid=101102357954271133897&rtpof=true&sd=true)
 
 <div align="center">
   <img src="Images/dataset on roboflow.png" alt="Roboflow">
 </div>
-
-
 
 
 You can access the project from the drive link : "will be provided soon"
@@ -97,7 +97,6 @@ You can access the project from the drive link : "will be provided soon"
 --- 
 ## Overview:
 
-project's presentation is provided here also: [presentation link](https://docs.google.com/presentation/d/1rvinPJAuQ8CUnr-7vivxsQqPMPkO_Sew/edit?usp=sharing&ouid=101102357954271133897&rtpof=true&sd=true)
 ### Problem Statement:
 Egypt's civilization’s wealth is reflected in its historical landmarks and astonishing destinations. Exploring Egypt’s diverse cultural heritage can be a complex experience for international tourists. Typical guidebooks and online resources often fail to provide the real-time assistance and tailored insights needed to truly appreciate the wonders of Egypt. As a result, significant issues arise: tourists become uncertain about the historical value or significance of landmarks due to the sheer magnitude of options available and frustrated by the lack of seamless accommodation booking options. Additionally, the missed opportunities to experience unique journeys in Egypt are another considerable issue.
 
