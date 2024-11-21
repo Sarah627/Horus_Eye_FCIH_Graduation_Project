@@ -61,35 +61,43 @@ You can access the project from the drive link : "will be provided soon"
 
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="100px" height="30px"/><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="100px" height="30px"/><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="100px" height="30px"/>
 
-| **Platform**  | **Link**                                                             | **Member Name**         | **Role/Description** |
-|---------------|---------------------------------------------------------------------|-------------------------|----------------------|
-| **Gmail**     | [sarahsameh627@gmail.com](mailto:sarahsameh627@gmail.com)           | **Sarah Sameh AboBakkr** | Main contact         |
-| **LinkedIn**  | [LinkedIn Profile](https://www.linkedin.com/in/sarah-sameh-a5aba11b3/) |                         | Professional profile |
-| **GitHub**    | [GitHub Profile](https://github.com/Sarah627)                       |                         | Developer            |
+| **Platform** | **Link**                                                               | **Member Name**          | **Role/Description** |
+| ------------ | ---------------------------------------------------------------------- | ------------------------ | -------------------- |
+| **Gmail**    | [sarahsameh627@gmail.com](mailto:sarahsameh627@gmail.com)              | **Sarah Sameh AboBakkr** | Main contact         |
+| **LinkedIn** | [LinkedIn Profile](https://www.linkedin.com/in/sarah-sameh-a5aba11b3/) |                          | Professional profile |
+| **GitHub**   | [GitHub Profile](https://github.com/Sarah627)                          |                          | Developer            |
 
                       
 
 ---
 
 ## Table of Contents:
-1. Overview
-   1. Problem Statement.
-   2. Proposed Solution.
-2. Challenges
-   1. General constraints.
-   2. Data.
-   3. Choosing Best Model.
-3. How Did We Overcome The Challenges Of The Dataset 
-4. Results
-   1. Results from YOLOv7
-   2. How the project was deployed
-5. Future Work
-   1. Advanced Models
-6. Acknowledgements 
-7. References
+- [AI-Powered Tourism Website (Horus Eye)](#ai-powered-tourism-website-horus-eye)
+  - [Graduation Project Faculty Of Computers and Artificial Intelligence Helwan University](#graduation-project-faculty-of-computers-and-artificial-intelligence-helwan-university)
+  - [Team's Contacts:](#teams-contacts)
+  - [Table of Contents:](#table-of-contents)
+  - [Overview:](#overview)
+    - [Problem Statement:](#problem-statement)
+    - [Proposed Solution:](#proposed-solution)
+      - [Objectives](#objectives)
+  - [Challenges:](#challenges)
+    - [General Constraints](#general-constraints)
+    - [Data](#data)
+    - [Choosing Best Model](#choosing-best-model)
+      - [Model Selection Criteria for Object Detection](#model-selection-criteria-for-object-detection)
+      - [Challenges and Limitations of Tested Models](#challenges-and-limitations-of-tested-models)
+  - [How Did We Overcome The Challenges Of The Dataset](#how-did-we-overcome-the-challenges-of-the-dataset)
+  - [Results](#results)
+    - [Results from YOLOv7](#results-from-yolov7)
+    - [How The Model Was Deployed](#how-the-model-was-deployed)
+  - [Future Work](#future-work)
+  - [Acknowledgements](#acknowledgements)
+  - [References](#references)
 
 --- 
 ## Overview:
+
+project's presentation is provided here also: [presentation link](https://docs.google.com/presentation/d/1rvinPJAuQ8CUnr-7vivxsQqPMPkO_Sew/edit?usp=sharing&ouid=101102357954271133897&rtpof=true&sd=true)
 ### Problem Statement:
 Egypt's civilization’s wealth is reflected in its historical landmarks and astonishing destinations. Exploring Egypt’s diverse cultural heritage can be a complex experience for international tourists. Typical guidebooks and online resources often fail to provide the real-time assistance and tailored insights needed to truly appreciate the wonders of Egypt. As a result, significant issues arise: tourists become uncertain about the historical value or significance of landmarks due to the sheer magnitude of options available and frustrated by the lack of seamless accommodation booking options. Additionally, the missed opportunities to experience unique journeys in Egypt are another considerable issue.
 
@@ -315,18 +323,18 @@ Additionally, we extend our heartfelt thanks to our families for their unwaverin
 
 ## References
 
-| **Author(s)**                                | **Title**                                                                         | **Source**                                                                                       | **Link**                                                                                                  |
-|----------------------------------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Girshick, R. (2015)                          | Fast R-CNN                                                                        | In *2015 IEEE International Conference on Computer Vision (ICCV)* (pp. 1440-1448). Santiago, Chile. | [DOI: 10.1109/ICCV.2015.169](https://doi.org/10.1109/ICCV.2015.169)                                        |
-| Glenn-Jocher, & Sergiuwaxmann (2024, June 2)  | YOLOV7                                                                           | YOLOv7 - Ultralytics YOLO Docs                                                                   | [Ultralytics YOLO Docs](https://docs.ultralytics.com/models/yolov7/)                                       |
-| Lihi Gur Arie, P. (2023, February 14)        | The Practical Guide for Object Detection with Yolov5 algorithm                     | Medium                                                                                           | [Towards Data Science](https://towardsdatascience.com/the-practical-guide-for-object-detection-with-yolov5-algorithm-74c04aac4843) |
-| Odemakinde, E. (n.d.)                        | Everything about Mask R-CNN: A Beginner’s Guide                                   | viso.ai                                                                                          | [viso.ai](https://viso.ai/deep-learning/mask-r-cnn/)                                                        |
-| Potrimba, P. (2023, August 9)                | What is Mask R-CNN? The Ultimate Guide                                            | Roboflow                                                                                         | [Roboflow Blog](https://blog.roboflow.com/mask-rcnn/)                                                     |
-| Solawetz, J. (2020, June 29)                 | What is YOLOv5? A Guide for Beginners                                             | Roboflow                                                                                         | [Roboflow Blog](https://blog.roboflow.com/yolov5-improvements-and-evaluation/)                            |
-| Solawetz, J. (2024, January 4)               | What is YOLOv7? A Complete Guide                                                 | Roboflow                                                                                         | [Roboflow Blog](https://blog.roboflow.com/yolov7-breakdown/)                                              |
-| Tsang, S.-H. (2018, November 3)              | Review of Review: ssd — single shot detector (object detection)                   | Medium                                                                                           |                                                                                                           |
-| Vishwakarma, N. (n.d.)                       | Real-Time Object Detection with SSDs: Single Shot MultiBox Detectors               | Analytics Vidhya                                                                                 | [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2023/11/real-time-object-detection-with-ssds-single-shot-multibox-detectors/) |
-| Wang, T., Zhang, K., Zhang, W., Wang, R., Rao, Y., Jiang, Z., Wan, S., & Gu, L. (2021, December 25) | Tea picking point detection and location based on mask-RCNN                        | ScienceDirect                                                                                    | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2214317321000962#:~:text=The%20Mask%20R%2DCNN%20loss,average%20binary%20cross%2Dentropy%20loss) |
-| Wang, C.-Y., Bochkovskiy, A., & Liao, H.-Y. M. (2023) | YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors | In *2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 7464-7475). Vancouver, BC, Canada. | [DOI: 10.1109/CVPR52729.2023.00721](https://doi.org/10.1109/CVPR52729.2023.00721)                          |
+| **Author(s)**                                                                                       | **Title**                                                                                  | **Source**                                                                                                              | **Link**                                                                                                                                                           |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Girshick, R. (2015)                                                                                 | Fast R-CNN                                                                                 | In *2015 IEEE International Conference on Computer Vision (ICCV)* (pp. 1440-1448). Santiago, Chile.                     | [DOI: 10.1109/ICCV.2015.169](https://doi.org/10.1109/ICCV.2015.169)                                                                                                |
+| Glenn-Jocher, & Sergiuwaxmann (2024, June 2)                                                        | YOLOV7                                                                                     | YOLOv7 - Ultralytics YOLO Docs                                                                                          | [Ultralytics YOLO Docs](https://docs.ultralytics.com/models/yolov7/)                                                                                               |
+| Lihi Gur Arie, P. (2023, February 14)                                                               | The Practical Guide for Object Detection with Yolov5 algorithm                             | Medium                                                                                                                  | [Towards Data Science](https://towardsdatascience.com/the-practical-guide-for-object-detection-with-yolov5-algorithm-74c04aac4843)                                 |
+| Odemakinde, E. (n.d.)                                                                               | Everything about Mask R-CNN: A Beginner’s Guide                                            | viso.ai                                                                                                                 | [viso.ai](https://viso.ai/deep-learning/mask-r-cnn/)                                                                                                               |
+| Potrimba, P. (2023, August 9)                                                                       | What is Mask R-CNN? The Ultimate Guide                                                     | Roboflow                                                                                                                | [Roboflow Blog](https://blog.roboflow.com/mask-rcnn/)                                                                                                              |
+| Solawetz, J. (2020, June 29)                                                                        | What is YOLOv5? A Guide for Beginners                                                      | Roboflow                                                                                                                | [Roboflow Blog](https://blog.roboflow.com/yolov5-improvements-and-evaluation/)                                                                                     |
+| Solawetz, J. (2024, January 4)                                                                      | What is YOLOv7? A Complete Guide                                                           | Roboflow                                                                                                                | [Roboflow Blog](https://blog.roboflow.com/yolov7-breakdown/)                                                                                                       |
+| Tsang, S.-H. (2018, November 3)                                                                     | Review of Review: ssd — single shot detector (object detection)                            | Medium                                                                                                                  |                                                                                                                                                                    |
+| Vishwakarma, N. (n.d.)                                                                              | Real-Time Object Detection with SSDs: Single Shot MultiBox Detectors                       | Analytics Vidhya                                                                                                        | [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2023/11/real-time-object-detection-with-ssds-single-shot-multibox-detectors/)                              |
+| Wang, T., Zhang, K., Zhang, W., Wang, R., Rao, Y., Jiang, Z., Wan, S., & Gu, L. (2021, December 25) | Tea picking point detection and location based on mask-RCNN                                | ScienceDirect                                                                                                           | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2214317321000962#:~:text=The%20Mask%20R%2DCNN%20loss,average%20binary%20cross%2Dentropy%20loss) |
+| Wang, C.-Y., Bochkovskiy, A., & Liao, H.-Y. M. (2023)                                               | YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors | In *2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 7464-7475). Vancouver, BC, Canada. | [DOI: 10.1109/CVPR52729.2023.00721](https://doi.org/10.1109/CVPR52729.2023.00721)                                                                                  |
 
 
