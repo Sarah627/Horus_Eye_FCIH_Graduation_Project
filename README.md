@@ -51,7 +51,7 @@ The project presentation is provided here also:
 </div>
 
 
-You can access the project from the drive link : "will be provided soon"
+`You can access the project from the drive link : **"will be provided soon"**`
 > ⚠ Caution: Please note that the project file size is large and may take some time to download or upload, depending on your internet connection. Ensure sufficient storage space before downloading.  
 ---
 ## Team's Contacts:
